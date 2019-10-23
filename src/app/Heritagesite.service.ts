@@ -98,7 +98,7 @@ export class HertiagesiteService {
                 image4Url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-uBx_Ds-a8c9GOSyFFB1rNP5lgp2VosYiKCRr8LwVLHUn9zZ&s",
                 image5Url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBua7QHsgxozETO2yE5U7Av_7_3cT9IxQJNy2KXFV3JkcMLIdR&s",
                 image6Url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtw56SWe9GsKk4F8wvlx6WO8TChEBdq-whgF_iel-uBpPscWjE&s",
-                HeritageName: "Kaziranga Wild Life ",
+                HeritageName: "Kaziranga Wild ",
                 Location: "Assam",
                 CreatedDate: new Date(1900,10,17),
                 description: "Famous for its one horn rhinoceroses, Kaziranga Wildlife Sanctuary is located in Assam and is one of the untouched natural areas in India. It is said that this World Heritage Site in India, was a project initiated by Lord Curzon when his wife failed to see a single Rhinoceros in the region and urged her husband to take measured regarding the protection of these endangered species. This park lies on the flood plains of the river Brahmaputra and consists mainly of dense grasslands, forests and also has several streams and lakes running through it. Kaziranga contains about 15 endangered Indian faunal species, of which the Rhino is the most endangered. Other mammals include capped langur, hoolock gibbon, tiger, leopard, sloth bear, Ganges dolphin, otter, wild boar, water buffalo, gaur, sambar, swamp deer, hog deer and Indian muntjac.",        
