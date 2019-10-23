@@ -1,0 +1,47 @@
+body {
+  font: 500 16px/1.8 Lato, sans-serif;
+  color: #777;
+}
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 11px;      
+  font-size: 35px;
+  color: rgb(24, 21, 21);
+}
+h5{
+    font-size: 21px;
+    color: rgb(24, 21, 21);
+}
+h6{
+  font-size: 13px;
+  color: rgb(24, 21, 21);
+}
+.container {
+  padding: 90px 0px;
+} 
+.aboutme{
+  width: 800px;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.img-thumbnail { 
+   width: 900px;
+  height: 300px; 
+  margin: 10px -50px;
+  float: left;
+  box-sizing: border-box; 
+}
+.heading { 
+  width: 100%;
+  display:table-cell;    
+  padding-left: 0em;
+  float: left;
+  box-sizing: border-box; 
+}
+    
+.img-fluid {
+  width: 900px;
+  height: 300px; 
+}
+   
+   
