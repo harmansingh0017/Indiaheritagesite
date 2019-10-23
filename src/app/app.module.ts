@@ -8,9 +8,7 @@ import {HeritagesiteComponent} from'./Heritagesite.component' ;
 import {RatingComponent} from'./rating.component' ;
 import {HeritagesitesComponent} from'./Heritagesites.component' ;
 import {TruncatePipe} from'./truncate.pipe' ;
-import {JumboTronComponent} from'./jumbotron.component' ;
 import { AboutComponent } from "./AboutComponent";
-//import { routing } from './app.routing';
 import { HeritagesiteDetailsComponent } from './heritagesite-details.component';
 import {RouterModule, Routes} from '@angular/router';
 import { from } from 'rxjs';
@@ -29,7 +27,6 @@ import { HertiagesiteService } from './Heritagesite.service';
     AppComponent , 
     HeritagesiteComponent , 
     TruncatePipe ,
-    JumboTronComponent ,
      HeritagesitesComponent ,
       RatingComponent,
       HeritagesiteDetailsComponent  ,

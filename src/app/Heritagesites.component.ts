@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core'
 import { HertiagesiteService} from './Heritagesite.service'
 import {Router} from '@angular/router';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
-import {sites} from './sites';
+import {Heritagesites} from './heritagesites';
  
 
 @Injectable()
@@ -12,16 +12,15 @@ import {sites} from './sites';
     template: `
     <div class="heading">
     <h2>India Heritage Sites</h2> 
-    </div>
-    
-    <div *ngIf="products.length == 0 ; else loading">
-    No products to display 
+    </div>  
+    <div *ngIf="sites.length == 0 ; else loading">
+    Nothing to display 
     </div>
     <ng-template #loading>
-      <div *ngIf="products.length > 0">   
-      <div *ngFor="let product of products">
-      <div  (click) = "onClick(product.id)" >
-      <Heritagesite [data]="product" > </Heritagesite>      
+      <div *ngIf="sites.length > 0">   
+      <div *ngFor="let site of sites">
+      <div  (click) = "onClick(site.id)" >
+      <Heritagesite [data]="site" > </Heritagesite>      
         </div>       
       </div>         
     </div>
@@ -39,23 +38,17 @@ import {sites} from './sites';
     providers: [HertiagesiteService]    
 })
 export class HeritagesitesComponent {
-    products;
+    sites;
 
     constructor(heritagesiteService: HertiagesiteService , private _route: Router , private hhtpClient: HttpClient){
-        this.products = heritagesiteService.getProducts();
+        this.sites = heritagesiteService.getProducts();
     }
     
-    getsites(id: number): sites {
-        return this.products.find(e => e.id === id);
+    getsites(id: number): Heritagesites {
+        return this.sites.find(e => e.id === id);
     }
 
     onClick(id: number){
         this._route.navigate(['sites',id]);
-    };
-     
-    onhit(){
-        this._route.navigate(['home']);
-    }
-     
-    
+    };       
 }

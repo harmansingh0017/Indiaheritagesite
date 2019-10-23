@@ -1,0 +1,321 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>carproject documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">carproject documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li>HertiagesiteService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/Heritagesite.service.ts</code>
+        </p>
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getProducts">getProducts</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getProducts"></a>
+                    <span class="name">
+                        <b>
+                            getProducts
+                        </b>
+                        <a href="#getProducts"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getProducts()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="10"
+                            class="link-to-prism">src/app/Heritagesite.service.ts:10</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {HttpClient} from &#x27;@angular/common/http&#x27;;
+import {Observable} from &#x27;rxjs&#x27;;
+import {Injectable} from &#x27;@angular/core&#x27;;
+import {Heritagesites} from  &#x27;./heritagesites&#x27;;
+import { Component, OnInit } from &#x27;@angular/core&#x27;;
+
+@Injectable()
+export class HertiagesiteService {
+           
+    getProducts() {
+            return [
+            { 
+                id: 1 ,
+                imagemainUrl: &quot;https://www.fodors.com/wp-content/uploads/2018/01/Taj-Mahal-FAQ-hero-1.jpg&quot;,
+                image1Url: &quot;https://media-cdn.tripadvisor.com/media/photo-s/13/17/b9/9e/tajmahal-inside-view.jpg&quot;,
+                image2Url: &quot;https://images.odysseytours.net/article/21000/a-view-of-the-taj-mahal-across-the-yamuna-river_18272.jpg&quot;,
+                image3Url: &quot;https://www.askideas.com/media/36/Sun-Light-Enters-Taj-Mahal-Inside-View.jpg&quot;,
+                image4Url: &quot;http://famouswonders.com/wp-content/uploads/2011/11/Mosque-interior-of-the-Taj-Mahal.jpg&quot;,
+                image5Url: &quot;https://www.travelogyindia.com/images/agra/inside-tajmahal.jpg&quot;,
+                image6Url: &quot;http://www.indiavirtualtour.com/TajMahal/TajImages/photoGallery/AgraFort/AgraFortExclusive521.jpg&quot;,
+                HeritageName: &quot;Taj Mahal&quot;,
+                Location: &quot;Agra&quot;,
+                CreatedDate: new Date(1703,10,17),
+                description: &quot;One of Seven Wonders of the World, White Marble Mughal Architecture, the Taj Mahal was built by emperor Shah Jahan in the memory of his wife, Mumtaj Mahal. It is located at the bank of river Yamuna in Agra. It was completed in 1653 with the estimated cost of 32 million Indian rupees which would today stand up to 58 billion Indian rupees. It is considered as the best example of Mughal architecture worldwide and is called the “Jewel of Muslim Art in India”. This is probably the monument that is most recognised the world over for its association with the heritage of India&quot;,        
+                rating: 4,
+                numOfReviews: 2
+            },
+            {
+                id: 2 ,
+                imagemainUrl: &quot;http://planetdens.com/image/Khajuraho-Temple-Madhy-pradesh.jpg&quot;,
+                image1Url: &quot;http://thinkingparticle.com/sites/default/files/imagecache/node-gallery-display/Erotic%20Art%20carvings%20at%20Khajuraho%20temple.JPG&quot;,
+                image2Url: &quot;https://templeszone.com/wp-content/uploads/edd/2019/07/Khajuraho-Monuments_040.jpg&quot;,
+                image3Url: &quot;https://www.culturalindia.net/iliimages/Khajuraho-Group-of-Monuments-ili-133-img-7.jpg&quot;,
+                image4Url: &quot;https://i2.wp.com/wiwigo.ml/blog/wp-content/uploads/2014/12/large_4474532905.jpg?resize&#x3D;1024%2C683&quot;,
+                image5Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcT3xryLyJ8d0SkeCxEHO1IrWRKU2mHRfDE4NGMhkIDDTMgPLWuX&amp;s&quot;,
+                image6Url: &quot;https://qph.fs.quoracdn.net/main-qimg-ada3649f32e32764b5a2725cad014d3f.webp&quot;,
+                HeritageName: &quot;Khajuraho&quot;,
+                Location: &quot;Madhya Pradesh&quot;,
+                CreatedDate: new Date(1616,10,17),
+                description: &quot;Located in Madhya Pradesh, Khajuraho is a famous UNESCO World Heritage site in India. Khajuraho is a unique heritage site which is renowned for a group of Hindu and Jain Temples situated 175 km south-east of Jhansi. They are well known for their Nagara style symbolism and erotic figures and sculptures. These sensuous stone carvings of human and animal form in erotic poses are very aesthetically portrayed and stand testimony to the rich cultural heritage of India.  Most of these monuments were built between 950 to 1050 CE under the reign of the Chandella dynasty. It consists of a total of 85 Temples spread across an area of 20 square kilometres. The Kandariya temple is the most prominent of all of these temples in the Khajuraho complex.&quot;,        
+                rating: 5,
+                numOfReviews: 2      
+            },
+            {   
+                id: 3 ,              
+                imagemainUrl: &quot;https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Red-Fort_600-1280x720.jpg&quot;,
+                image1Url: &quot;https://delhiwalks.in/wp-content/uploads/2017/11/RED-FORT.jpg&quot;,
+                image2Url: &quot;https://static.toiimg.com/thumb/65666855/redfort2.jpg?width&#x3D;748&amp;height&#x3D;499&quot;,
+                image3Url: &quot;http://www.deccanodysseytrains.com/blog/wp-content/uploads/2018/05/The-Shape-of-Red-Fort.jpg&quot;,
+                image4Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcTGNOiCmRySeLUYeRYJ3JQQmYvdmvS7O3nWFihRNuS3_sSoRk5Q5A&amp;s&quot;,
+                image5Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcQStRhqjhIuruz1JiDrfmS2h9g1vHyLqJQlNJWvI047scjCHwzJdA&amp;s&quot;,
+                image6Url: &quot;https://content3.jdmagicbox.com/comp/delhi/l1/011pxx11.xx11.111116102233.h8l1/catalogue/red-fort-red-fort-delhi-tourist-attraction-17pa9dj.jpg&quot;,
+                HeritageName: &quot;Red Fort&quot;,
+                Location: &quot;Delhi&quot;,
+                CreatedDate: new Date(1705,10,17),
+                description: &quot;Situated in the centre of the historic city of New Delhi, the Red Fort was built by Emperor Shah Jahan when he shifted his capital from Agra to Delhi, or what was known as Shahjahanabad at that time. The fort became the political hub of the Mughals. Under Shah Jahan, Mughal art and architecture reached its zenith, and the Red Fort is the perfect example of that. One can see the blending of Indo-Islamic, Timurid, Hindu and Persian forms of architecture in several facets of the Red Fort. It’s made up of red sandstone and houses several other smaller buildings such as the private pavilions, the Diwan-i-aam, the Diwan-i-Khas. The Red Fort is one of the most famous UNESCO World Heritage Sites in India and is managed directly by the Archaeological Survey of India.&quot;,        
+                rating: 4,
+                numOfReviews: 2
+            },
+            {
+                id: 4 ,
+                imagemainUrl: &quot;https://image3.mouthshut.com/images/Restaurant/Photo/-69394_7837.jpg&quot;,
+                image1Url: &quot;https://i.ytimg.com/vi/Qb2JYJ6xaMM/maxresdefault.jpg&quot;,
+                image2Url: &quot;https://www.tripsavvy.com/thmb/6laWg1VQnmc8nrdtlLlUZ5IRf1M&#x3D;/2121x1414/filters:fill(auto,1)/GettyImages-154908686-5b9e3f52c9e77c0057fb536f.jpg&quot;,
+                image3Url: &quot;https://images.thrillophilia.com/image/upload/s--gxttgSnR--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/012/843/original/1510820496_amber_fort.jpg.jpg?1510820496&quot;,
+                image4Url: &quot;https://www.swantour.com/blogs/wp-content/uploads/2018/09/Amer-Fort-Jaipur.jpg&quot;,
+                image5Url: &quot;https://cdn1.goibibo.com/t_tg_fs/jaipur-amer-fort-148133397356-orijgp.jpg&quot;,
+                image6Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcSdVtYmwW8rx7qNbA9rAS8ivTN5rECsONaVBrKuww52DkCXmEGD&amp;s&quot;,
+                HeritageName: &quot;Amer Fort&quot;,
+                Location: &quot;Rajasthan&quot;,
+                CreatedDate: new Date(1808,10,17),
+                description: &quot;Built-in the 3rd millennium BC in the memory of the kings, its an explicit example of beautiful Ancient Indian architecture. Constructed during the time of the Solanki dynasty, legend says that it was built in the honour and memory of Bhimdev 1, the son of the founder of the family, by his widowed queen Udayamati. It was recently declared as a UNESCO World Heritage site in 2014, owing to its architectural marvel and splendour. Rani-ki-vav is well known for its Stepped Corridors, Sculptures and Stone Carvings in the Well. Most of the sculptures in the well are devoted to Lord Vishnu in the form of his ten avatars, which signify his return to the world. Apart from being a place for storage of water, this vav also has a spiritual meaning attested to it. It is designed as an inverted temple and is divided into seven levels of wells, each having its own importance as per the religious and mythological works mentioned in the canonical literature.&quot;,        
+                rating: 4,
+                numOfReviews: 2
+               },
+               {
+                id: 5 ,
+                imagemainUrl: &quot;https://www.elsetge.cat/myimg/f/63-639775_earth-jaipur-100-quality-hd-wallpapers-pink-city.jpg&quot;,
+                image1Url: &quot;https://www.treebo.com/blog/wp-content/uploads/2018/07/Webp.net-compress-image-3-29.jpg&quot;,
+                image2Url: &quot;https://www.businessinsider.in/thumb/msid-70125267,width-640,resizemode-4,imgsize-217465/in-1727-ce-rajput-rural-sawai-jai-singh-ii-he-also-gave-the-city-its-iconic-colour-which-led-to-its-fame-as-the-pink-city-.jpg&quot;,
+                image3Url: &quot;https://img.etimg.com/thumb/height-450,width-800,msid-70104165,imgsize-1445127/jaipur_gettyimages.jpg&quot;,
+                image4Url: &quot;http://www.indiatripplanners.com/blog/wp-content/uploads/2017/12/Pink-City-Jaipur-min-1.jpg&quot;,
+                image5Url: &quot;https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/9c/70.jpg?fit&#x3D;crop&amp;w&#x3D;320&amp;h&#x3D;140&quot;,
+                image6Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcRzApVvXiQpgfZe9hda1Gpb-3-Ex_cL88HkbArGBVBQrsg1R7Mr&amp;s&quot;,
+                HeritageName: &quot;The Pink City&quot;,
+                Location: &quot;Jaipur&quot;,
+                CreatedDate: new Date(1587,10,17),
+                description: &quot;With the newest addition to the list of UNESCO world heritage sites in India, Jaipur joined the club on 6th June 2019. It is one of the largest cities in India and is surrounded by walls and gates decorated with drawings on the backdrop of a beautiful pink hue, Jaipur, the pink city successfully manages to retain its old-world charm. Home to a few other UNESCO World Heritage sites including Amer Fort and Jantar Mantar, Jaipur is home to many magnificent forts, palaces, temples and museums. Jaipur is filled to the brim with bustling local bazaars where you can shop for local handicrafts and trinkets to your heart&#x27;s content. Popular bazaars in the city include Bapu Bazaar, Tripolia Bazaar and Johri Bazaar.&quot;,        
+                rating: 4,
+                numOfReviews: 2
+               },
+               {
+                id: 6 ,
+                imagemainUrl: &quot;https://images.thrillophilia.com/image/upload/s--9UJz8vla--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/003/780/original/rhio-kaziranga-1.JPG.jpg?1458193118&quot;,
+                image1Url: &quot;http://www.kaziranganationalpark-india.com/images/elephantsfari.jpg&quot;,
+                image2Url: &quot;https://images.thrillophilia.com/image/upload/s--9UJz8vla--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/003/780/original/rhio-kaziranga-1.JPG.jpg?1458193118&quot;,
+                image3Url: &quot;https://www.sentinelassam.com/wp-content/uploads/2018/12/c999d852a8bbebd4b4ac8034558bb64a.jpg&quot;,
+                image4Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcR3-uBx_Ds-a8c9GOSyFFB1rNP5lgp2VosYiKCRr8LwVLHUn9zZ&amp;s&quot;,
+                image5Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcQBua7QHsgxozETO2yE5U7Av_7_3cT9IxQJNy2KXFV3JkcMLIdR&amp;s&quot;,
+                image6Url: &quot;https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcRtw56SWe9GsKk4F8wvlx6WO8TChEBdq-whgF_iel-uBpPscWjE&amp;s&quot;,
+                HeritageName: &quot;Kaziranga Wild Life &quot;,
+                Location: &quot;Assam&quot;,
+                CreatedDate: new Date(1900,10,17),
+                description: &quot;Famous for its one horn rhinoceroses, Kaziranga Wildlife Sanctuary is located in Assam and is one of the untouched natural areas in India. It is said that this World Heritage Site in India, was a project initiated by Lord Curzon when his wife failed to see a single Rhinoceros in the region and urged her husband to take measured regarding the protection of these endangered species. This park lies on the flood plains of the river Brahmaputra and consists mainly of dense grasslands, forests and also has several streams and lakes running through it. Kaziranga contains about 15 endangered Indian faunal species, of which the Rhino is the most endangered. Other mammals include capped langur, hoolock gibbon, tiger, leopard, sloth bear, Ganges dolphin, otter, wild boar, water buffalo, gaur, sambar, swamp deer, hog deer and Indian muntjac.&quot;,        
+                rating: 5,
+                numOfReviews: 2
+               }];
+                  
+             }
+
+    
+          }    
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'HertiagesiteService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

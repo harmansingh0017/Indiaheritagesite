@@ -1,0 +1,1 @@
+var ROUTES_INDEX = {"name":"<root>","kind":"module","className":"AppModule","children":[{"kind":"component","component":"HeritagesiteDetailsComponent","path":"sites/:id"},{"kind":"component","component":"HeritagesitesComponent","path":""},{"kind":"component","component":"AboutComponent","path":"About"}]}

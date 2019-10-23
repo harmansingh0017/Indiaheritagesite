@@ -1,5 +1,5 @@
 
-export class sites{
+export class Heritagesites{
                 id: number;
                 imagemainUrl?:  string;
                 image1Url?: string;

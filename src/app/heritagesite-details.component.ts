@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {HertiagesiteService} from './Heritagesite.service';
 import {HeritagesitesComponent} from'./Heritagesites.component' ;
-import {sites} from './sites';
+import {Heritagesites} from './heritagesites';
 
 @Component({
   selector: 'sites',
@@ -12,7 +12,7 @@ import {sites} from './sites';
 })
 export class HeritagesiteDetailsComponent implements OnInit {
 
-  Sites: sites;
+  Sites: Heritagesites;
   constructor(private _route: ActivatedRoute , private _heritagesitescomponent: HeritagesitesComponent){}
 
   ngOnInit(){

@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
                              <div class="github-icon"> 
                              <p>Github Repo</p>
                                 <ul >
-                                     <li> <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-github-square fa-3x social"></i></a> </li>
+                                     <li> <a href="https://github.com/sing0017/Indiaheritagesite.git" target="_blank"><i id="social-em" class="fa fa-github-square fa-3x social"></i></a> </li>
                                 </ul>        
                              </div>
                          </div>

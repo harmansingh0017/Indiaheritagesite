@@ -19,8 +19,6 @@ import { Component } from '@angular/core';
          </div>
          </nav>
          <router-outlet></router-outlet> 
-        
-  
     `,
   styleUrls: ['./app.component.css']
 })
