@@ -11,16 +11,16 @@ import { Component } from '@angular/core';
                                     <p>sed I made this website using Angular 2 with bootstrap , for now its hard coded list of servce and i also have repos of this site in Github of which link i put down below </p>
                             <div class="about-icons"> 
                                 <ul >
-                                    <li><a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a> </li>
-                                    <li><a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a> </li>
-                                    <li> <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a> </li>
-                                    <li> <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a> </li>
+                                    <li><a href="https://www.facebook.com/"><i id="social-fb" target="_blank" class="fa fa-facebook-square fa-3x social"></i></a> </li>
+                                    <li><a href="https://twitter.com/"><i id="social-tw" target="_blank" class="fa fa-twitter-square fa-3x social"></i></a> </li>
+                                    <li> <a href="https://plus.google.com/"><i id="social-gp" target="_blank" class="fa fa-google-plus-square fa-3x social"></i></a> </li>
+                                    <li> <a href="mailto:harmans497@gmail.com"><i id="social-em" target="_blank" class="fa fa-envelope-square fa-3x social"></i></a> </li>
                                 </ul>        
                              </div>
                              <div class="github-icon"> 
                              <p>Github Repo</p>
-                                <ul >
-                                     <li> <a href="https://github.com/sing0017/Indiaheritagesite.git" target="_blank"><i id="social-em" class="fa fa-github-square fa-3x social"></i></a> </li>
+                                <ul>
+                                     <li> <a href="https://github.com/sing0017/Indiaheritagesite.git" target="_blank"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a> </li>
                                 </ul>        
                              </div>
                          </div>
@@ -49,6 +49,8 @@ import { Component } from '@angular/core';
  #social-tw:hover {color: #4099FF;transition:all .001s;}
  #social-gp:hover {color: #d34836;transition:all .001s;}
  #social-em:hover {color: #f39c12;transition:all .001s;}
+ #social-gh:hover {color: #f39c12;transition:all .001s;}
+ 
 
     `]
 })

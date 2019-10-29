@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {HertiagesiteService} from './Heritagesite.service';
 import {HeritagesitesComponent} from'./Heritagesites.component' ;
@@ -11,7 +11,7 @@ import {Heritagesites} from './heritagesites';
   providers: [HeritagesitesComponent]
 })
 export class HeritagesiteDetailsComponent implements OnInit {
-
+  @Input() data;    
   Sites: Heritagesites;
   constructor(private _route: ActivatedRoute , private _heritagesitescomponent: HeritagesitesComponent){}
 

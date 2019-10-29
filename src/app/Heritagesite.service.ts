@@ -22,7 +22,7 @@ export class HertiagesiteService {
                 Location: "Agra",
                 CreatedDate: new Date(1703,10,17),
                 description: "One of Seven Wonders of the World, White Marble Mughal Architecture, the Taj Mahal was built by emperor Shah Jahan in the memory of his wife, Mumtaj Mahal. It is located at the bank of river Yamuna in Agra. It was completed in 1653 with the estimated cost of 32 million Indian rupees which would today stand up to 58 billion Indian rupees. It is considered as the best example of Mughal architecture worldwide and is called the “Jewel of Muslim Art in India”. This is probably the monument that is most recognised the world over for its association with the heritage of India",        
-                rating: 4,
+                rating: 1,
                 numOfReviews: 2
             },
             {
@@ -38,7 +38,7 @@ export class HertiagesiteService {
                 Location: "Madhya Pradesh",
                 CreatedDate: new Date(1616,10,17),
                 description: "Located in Madhya Pradesh, Khajuraho is a famous UNESCO World Heritage site in India. Khajuraho is a unique heritage site which is renowned for a group of Hindu and Jain Temples situated 175 km south-east of Jhansi. They are well known for their Nagara style symbolism and erotic figures and sculptures. These sensuous stone carvings of human and animal form in erotic poses are very aesthetically portrayed and stand testimony to the rich cultural heritage of India.  Most of these monuments were built between 950 to 1050 CE under the reign of the Chandella dynasty. It consists of a total of 85 Temples spread across an area of 20 square kilometres. The Kandariya temple is the most prominent of all of these temples in the Khajuraho complex.",        
-                rating: 5,
+                rating: 4,
                 numOfReviews: 2      
             },
             {   

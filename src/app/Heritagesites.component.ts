@@ -10,14 +10,13 @@ import {Heritagesites} from './heritagesites';
 @Component({
     selector: 'Heritagesites',
     template: `
-    <div class="heading">
-    <h2>India Heritage Sites</h2> 
-    </div>  
+      
     <div *ngIf="sites.length == 0 ; else loading">
     Nothing to display 
     </div>
     <ng-template #loading>
-      <div *ngIf="sites.length > 0">   
+      <div *ngIf="sites.length > 0"> 
+      <h2>India Heritage Sites</h2>   
       <div *ngFor="let site of sites">
       <div  (click) = "onClick(site.id)" >
       <Heritagesite [data]="site" > </Heritagesite>      

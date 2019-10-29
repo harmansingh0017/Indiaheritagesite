@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core'
     `]                                       
 })
 export class RatingComponent{
-    @Input('rating-value') rating = 0;
+    @Input('rating-value') rating;
     @Input() numOfReviews = 0;
 
     onClick(ratingValue){
